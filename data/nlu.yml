@@ -1,0 +1,127 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hello there
+    - good morning
+    - good evening
+
+- intent: goodbye
+  examples: |
+    - see you later
+    - good night
+    - goodbye
+    - have a nice day
+    - see you around
+
+- intent: affirm
+  examples: |
+    - yes
+    - indeed
+    - of course
+
+- intent: deny
+  examples: |
+    - no
+    - I don't think so
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - extremely good
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - I'm so sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: faq_room_availability
+  examples: |
+    - are roooms available for the weekend?
+    - can i book a room for next month?
+    - is there a room available tonight?
+
+- intent: faq_room_rates
+  examples: |
+    - what are the room rates?
+    - how much a single room costs?
+    - how much a double room costs?
+    - are there any discounts?
+    - how much does a deluxe room costs?
+    - what are price of room?
+
+- intent: faq_booking_policy
+  examples: |
+    - what is your cancellation policy?
+    - can i modify my booking?
+    - what are the hotel policies?
+
+- intent: faq_pool
+  examples: |
+    - is there swimming pool available?
+    - do you provide swimming pool facilities
+    - do you have a swimming pool?
+
+- intent: faq_gym
+  examples: |
+    - is there gym available?
+    - do you provide gym facilities
+    - do you have a gym?
+
+- intent: faq_check_in_out
+  examples: |
+    - what is the check in time?
+    - when do i need to check out?
+
+- intent: faq_dining_options
+  examples: |
+    - do you have a restaurant?
+    - what are the breakfast hours?
+    - what is the dining arrangements?
+    - do you provide food
+    - lunch timings
+
+- intent: faq_roomservice
+  examples: |
+    - is room service available?
+    - what is the timings of room service?
+
+- intent: thank_you
+  examples: |
+    - Thanks a lot
+    - thank you
+    - thank you so much
+    - appreciate it
+
+- intent: out_of_scope
+  examples: |
+    - What is the weather today?
+    - tell me a joke
+    - who won the last world cup?

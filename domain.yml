@@ -1,0 +1,107 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - faq_room_availability
+  - faq_room_rates
+  - faq_booking_policy
+  - faq_gym
+  - faq_pool
+  - faq_check_in_out
+  - faq_dining_options
+  - thank_you
+  - out_of_scope
+  - faq_roomservice
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?" 
+    - text: "Good morning! How can I help you?" 
+    - text: "Hello there! What can I do for you?"
+
+  utter_goodbye: 
+    - text: "Goodbye! Have a great day." 
+    - text: "See you later! Take care." 
+    - text: "Good night! Rest well."
+
+  utter_affirm: 
+    - text: "Great!" 
+    - text: "Indeed, that’s correct." 
+    - text: "Of course!"
+
+  utter_deny: 
+    - text: "No, I don’t think so." 
+    - text: "Not really." 
+    - text: "That’s not quite right."
+
+  utter_mood_great: 
+    - text: "I’m glad to hear that!" 
+    - text: "Wonderful! Keep up the positive vibes." 
+    - text: "That’s fantastic!"
+
+  utter_mood_unhappy: 
+    - text: "I’m sorry to hear that." 
+    - text: "I hope things get better soon." 
+    - text: "I’m here for you if you want to talk."
+
+  utter_bot_challenge: 
+    - text: "Yes, I’m an AI assistant here to help you." 
+    - text: "I’m an AI created to assist with your queries." 
+    - text: "You’re chatting with an AI assistant."
+
+  utter_faq_room_availability: 
+    - text: "Yes, rooms are available for the weekend." 
+    - text: "You can book a room for next month." 
+    - text: "We have rooms available tonight."
+
+  utter_faq_room_rates: 
+    - text: "The room rates start from $100 for a single room." 
+    - text: "A double room costs $150 per night." 
+    - text: "Our deluxe rooms are priced at $200 per night."
+
+  utter_faq_booking_policy: 
+    - text: "Our cancellation policy allows free cancellation up to 24 hours before arrival." 
+    - text: "You can modify your booking by contacting our support team."
+
+  # utter_faq_amenities: 
+  #   - text: "Yes, we have a gym available for guests." 
+  #   - text: "We have a swimming pool open from 6 AM to 10 PM."
+
+  utter_faq_pool:  
+    - text: "We have a swimming pool open from 6 AM to 10 PM."
+
+  utter_faq_gym: 
+    - text: "Yes, we have a gym available for guests."
+
+  utter_faq_check_in_out: 
+    - text: "The check-in time is 3 PM." 
+    - text: "Check-out time is 12 PM."
+
+  utter_faq_dining_options: 
+    - text: "We have a restaurant that serves breakfast, lunch, and dinner." 
+    - text: "Breakfast hours are from 7 AM to 10 AM.Lunch from 1 PM to 3 PM and dinner is served at 9 PM" 
+    - text: "Room service is available 24/7."
+
+  utter_room_service:
+    - text: "Room service is available 24/7."
+
+  utter_thank_you: 
+    - text: "You’re welcome!" 
+    - text: "Glad I could help." 
+    - text: "Thank you! Have a great day!"
+
+  utter_out_of_scope: 
+    - text: "I’m sorry, but I don’t have information about that." 
+    - text: "That’s outside my scope of knowledge." 
+    - text: "I’m here to assist with hotel-related queries."
+
+  
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

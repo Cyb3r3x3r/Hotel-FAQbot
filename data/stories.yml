@@ -1,0 +1,91 @@
+version: "3.1"
+
+stories:
+
+- story: Greet and goodbye 
+  steps: 
+  - intent: greet 
+  - action: utter_greet 
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: Affirmation 
+  steps: 
+  - intent: affirm 
+  - action: utter_affirm
+
+- story: Denial 
+  steps: 
+  - intent: deny 
+  - action: utter_deny
+
+- story: Positive mood 
+  steps: 
+  - intent: mood_great 
+  - action: utter_mood_great
+
+- story: Negative mood 
+  steps: 
+  - intent: mood_unhappy 
+  - action: utter_mood_unhappy
+
+- story: Bot challenge 
+  steps: 
+  - intent: bot_challenge 
+  - action: utter_bot_challenge
+
+- story: Check room availability 
+  steps: 
+  - intent: faq_room_availability 
+  - action: utter_faq_room_availability
+
+- story: Check room rates 
+  steps: 
+  - intent: faq_room_rates 
+  - action: utter_faq_room_rates
+
+- story: Check room rates 
+  steps: 
+  - intent: faq_room_rates 
+  - action: utter_faq_room_rates
+
+- story: Booking policy 
+  steps: 
+  - intent: faq_booking_policy 
+  - action: utter_faq_booking_policy
+
+- story: Check pool 
+  steps: 
+  - intent: faq_pool 
+  - action: utter_faq_pool
+
+- story: Check gym 
+  steps: 
+  - intent: faq_gym 
+  - action: utter_faq_gym
+
+- story: Enquire Room service
+  steps: 
+  - intent: faq_roomservice 
+  - action: utter_room_service
+
+
+- story: Check-in and check-out times 
+  steps: 
+  - intent: faq_check_in_out 
+  - action: utter_faq_check_in_out
+
+- story: Dining options 
+  steps: 
+  - intent: faq_dining_options 
+  - action: utter_faq_dining_options 
+
+- story: Thank you 
+  steps: 
+  - intent: thank_you 
+  - action: utter_thank_you
+
+- story: Out of scope 
+  steps: 
+  - intent: out_of_scope 
+  - action: utter_out_of_scope
